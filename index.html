@@ -11,7 +11,77 @@
 </head>
 
 <body>
-
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header__logo">
+            <img src="./images/Apple_logo_grey.png" alt="apple logo grey" class="header__logo__image">
+            <p class="header__logo__text">Apple</p>
+        </div>
+        <nav class="nav">
+            <a href="#store" class="nav__link">Store</a>
+            <a href="#accessories" class="nav__link">Accessories</a>
+            <a href="#blog" class="nav__link">Blog</a>
+            <a href="#support" class="nav__link">Support</a>
+        </nav>
+        <div class="header__right-column">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <div class="cart-icon-wrapper">
+                <a href="#basketDropdown" class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-count">1</span>
+                </a>
+                <div id="basketDropdown" class="basket-dropdown">
+                    <div class="basket-content">
+                        <a href="#" class="close">&times;</a>
+                        <h2 class="basket-title">In Your Basket</h2>
+                        <div class="basket-item">
+                            <img src="./images/mbp.png" alt="Macbook Pro 2024">
+                            <div class="basket-item-details">
+                                <h3>Macbook Pro 2024</h3>
+                                <p>Price: $1999</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero fade-in">
+        <div class="hero__image">
+            <img src="./images/mbp.png" alt="Macbook Pro 2024">
+        </div>
+        <div class="hero__text">
+            <h1 class="hero__title">Macbook Pro 2024</h1>
+            <h2 class="hero__subtitle">Supercharged for pros.</h2>
+            <p class="hero__description">The most powerful MacBook Pro ever is here. With the blazing-fast M3 Pro or M3
+                Max chip.</p>
+            <p class="hero__price">From $1999</p>
+            <div class="hero__buttons">
+                <a href="#order" class="hero__button">Order Now</a>
+                <a href="#videoModal" class="hero__playbutton"><i class="fa-solid fa-play"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- Spec section -->
+    <section class="specs fade-in">
+        <div class="spec">
+            <h3 class="spec__title">3.7x</h3>
+            <p class="spec__description">faster CPU performance</p>
+        </div>
+        <div class="spec">
+            <h3 class="spec__title">13x</h3>
+            <p class="spec__description">faster graphics performance</p>
+        </div>
+        <div class="spec">
+            <h3 class="spec__title">11x</h3>
+            <p class="spec__description">faster machine learning</p>
+        </div>
+        <div class="spec">
+            <h3 class="spec__title">21</h3>
+            <p class="spec__description">hours battery life</p>
+        </div>
+    </section>
 </body>
 
 </html>
